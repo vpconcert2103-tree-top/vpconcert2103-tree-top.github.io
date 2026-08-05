@@ -44,25 +44,26 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  display: inline-block;
+  overflow: hidden;
   background-color: DarkSlateGrey;
-  align-items: center;
 }
 
-.nav_links {
-  list-style: none;
-}
-
-.nav_links li a {
-  padding: 10px 20px;
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
   color: AliceBlue;
-  font-size: 100%; 
   text-align: center;
+  padding: 10px 16px;
   text-decoration: none;
   font-family: monospace, Verdana, "Lucida Console";
 }
-  
-/* Style the topnav links */
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: SeaGreen;
+  color: white;
+}
 
 /* Change color on hover */
 .topnav a:hover {
